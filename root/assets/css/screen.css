@@ -1,0 +1,178 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 0.9
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* typography.css */
+html {font-size:100.01%;  }
+body {font-size:75%;color:#3d3f43;background:#a0b59c;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.5em; margin-top:0.25em;}
+h3 {font-size:1.5em;line-height:1.6;margin-bottom:1em; color:#485047;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color:#000; text-decoration:underline;}
+a {color:#2580b6;text-decoration:none;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:3.333em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#93ac8f; color:#ffffff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+caption {background:#eee;}
+
+/* forms.css */
+label {font-weight:bold;}
+fieldset {padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
+legend {font-weight:bold;font-size:1.2em;}
+input[type=text], input[type=password], input.text, input.title, textarea, select {background-color:#fff;border:1px solid #bbb;}
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {border-color:#666;}
+input[type=text], input[type=password], input.text, input.title, textarea, select {margin:0.5em 0;}
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1.5em;}
+textarea {width:390px;height:250px;padding:5px;}
+input[type=checkbox], input[type=radio], input.checkbox, input.radio {position:relative;top:.25em;}
+form.inline {line-height:3;}
+form.inline p {margin-bottom:0;}
+.error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+
+/* grid.css */
+.container {width:950px;margin:0 auto;}
+hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:0 0 1.45em;border:none;}
+hr.space {background:#fff;color:#fff;visibility:hidden;}
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+
+.green	{background-image:url('../images/bgGreen.jpg'); background-repeat:repeat-x; background-position:bottom center; min-height:1000px;}
+.sky		{background-image:url('../images/bgBlue.jpg'); background-repeat:repeat-x; background-position:top center; background-color:#ffffff;}
+.pageBody	{background-image:url('../images/bgPageBody.png'); background-repeat:repeat-y; background-position:top center;}
+
+.pageHeader	{background-image:url('../images/bgPageHeader.png'); background-repeat:repeat-y; background-position:top center; height:132px;}
+.pageHeader .container	{padding-top:40px;}
+
+.pageFooter	{background-image:url('../images/bgPageFooter.png'); background-repeat:repeat-y; background-position:top center; height:25px;}
+
+.footer		{background-image:url('../images/bgLogo.gif'); background-repeat:no-repeat; background-position:center right; font-size:8pt; padding:20px 0px 20px 0px;}
+.footer a	{color:#1f4d68; text-decoration:none;}
+
+.copyrightLinks	{background-image:url('../images/bgFooterLinks.gif'); background-repeat:no-repeat; width:686px; height:42px; float:left;}
+.copyrightLinks a	{float:left; display:block; font-size:8pt; color:#2f3132; text-decoration:none; padding:0px 20px 0px 20px; border-right:1px solid #888f94; margin-top:12px;}
+.copyrightLinks a:hover	{color:#000000;}
+
+.timeSheets		{float:left; margin-left:3px;}
+
+.footerColumn	{width:200px; float:left; padding-left:20px;}
+
+
+.siteNavigation	{padding-top:15px;}
+.globalNav		{float:left; width:700px;}
+.globalNav a	{display:block; float:left; padding:0px 20px 0px 10px;}
+.socialNav		{float:left; width:250px; text-align:right;}
+
+.testimonials 	{background-image:url('../images/quotesUp.gif'); background-repeat:no-repeat; background-position:top left; padding:10px; font-size:8pt; margin-bottom:20px;  border-bottom:5px solid #f1f1f1;}  
+.testimonials strong	{color:#1f4d68; font-size:8pt;}
+.closingQuote	{background-image:url('../images/quoteDown.gif'); background-repeat:no-repeat; background-position:bottom right;}
+.testimonials h2{font-family:georgia; font-size:14pt; color:#1f4d68;}
+
+.localNav 			{margin-bottom:20px; font-size:8pt; border-bottom:5px solid #f1f1f1;}
+.localNav a			{display:block; color:#1f4d68; text-decoration:none; padding:5px 10px 5px 10px; border-bottom:1px solid #f1f1f1;}
+.localNav a:hover	{background-color:#f1f1f1; color:#000000;}
+.localNav a.on		{background-color:#1f4d68; color:#ffffff;}
+
+.pageContent		{width:950px;}
+.mainContent		{float:left; width:686px;}
+.mainContent .padding	{padding:10px 20px 10px 0px;}
+.relatedContent		{float:left; width:264px;}
+
+.jobFinder			{background-image:url('../images/bgJobFinder.gif'); height:157px; width:261px; margin-bottom:20px;}
+.jobFinder .padding	{padding:40px 8px 8px 8px;}
+.miniCopy			{font-size:8pt; padding:10px; padding-top:0px;}
+.jobSearchWidget	{width:244px; height:31px; background-image:url('../images/jobSearchWidget.png'); background-repeat:no-repeat;}
+.jobSearchWidget div{float:left;}
+.jobSearchWidget form	{padding:0; margin:0;}
+.jobSearchWidget form input	{border:0px; margin-left:10px; color:#3d3f43; width:190px; margin-right:10px; margin-top:8px; font-size:8pt;}	
+
+.industryNews		{margin-bottom:20px;}
+.industryNews a		{color:#1f4d68; font-size:8pt; text-decoration:none;}
+.industryNews a.news{color:#1f4d68; border-bottom:1px solid #cccccc; padding:5px 5px 5px 0px; font-size:8pt; display:block; text-decoration:none;}
+
+.hotJobs			{margin-bottom:20px; font-size:8pt; padding-left:10px;}
+.hotJobs a			{color:#1f4d68; font-size:8pt; text-decoration:none; font-weight:bold;}
+
+
+
+/* Table styles */
+table.listing 						{width: 100%; border-collapse: collapse;}
+table.listing th, table.listing td {padding: 5px;}
+table.listing th 			{padding: 5px 5px; font-weight: normal; color: #ffffff; border-bottom: 1px solid #aeaeae;}
+table.listing td 			{color: #555; background: #fff; border-bottom: 1px solid #eee;}
+table.listing tr:hover td 	{color: #000000;}
+table.listing tr.alt td 	{background: #f9f9f9;}
+table.listing td.pagination, td.pagination:hover {padding: 5px 10px; text-align: right; color: #000000; border-top: 2px solid #aeaeae;}
+table.listing td.pagination strong {font-weight: normal;}
+table.listing td.pagination a 		{color: #000000; border: 0;}
+table.listing td.pagination a:hover {color: #000000;}
+table.listing td.options 			{text-align: center;}
+table.listing td.options a 			{border: 0;}
+
+/* Table styles */
+table.grid 						{width: 100%; border-collapse: collapse;  border: 1px solid #f1f1f1;}
+table.grid th, table.grid td 	{padding:5px;}
+table.grid th 			{padding: 5px 5px; font-weight: normal; color: #ffffff;	}
+table.grid td 			{color: #555; background: #fff; border: 1px solid #f1f1f1;}
+table.grid tr:hover td 	{color: #000000;}
+table.grid tr.alt td 	{background: #f9f9f9;}
+table.grid td.options 			{text-align: center;}
+table.grid td.options a 			{border: 0;}
+
+
+.industryNewsHome 		{font-size:8pt;}
+.industryNewsHome a		{color:#93ac8f; font-weight:bold;}
+
+
+.column1				{width:300px; float:left; padding-top:20px;}
+.column2				{width:340px; float:left; padding-left:20px; padding-top:20px;}

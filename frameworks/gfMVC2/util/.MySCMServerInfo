@@ -1,0 +1,7 @@
+SCMBranch=gfMVC2
+SCMRepository=gfMVC2/frameworks/gfMVC2/util
+SCMMainlineUUID={760ac091-b663-435b-9e76-45a1dd83bed7}
+SCMBranchRepositoryID=22
+FileUploader.cfc;1108522530;1;1281537287;
+EventMetaParser.cfc;3566751965;3;1295458853;
+beanMetaHelper.cfc;935290148;1;1295457398;

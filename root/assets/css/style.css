@@ -1,0 +1,57 @@
+/* Stylesheet for Fly */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {  margin:0; padding:0; } 
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; } 
+address,caption,cite,code,dfn,th,var { font-style:normal; font-weight:normal; } 
+ol,ul { list-style:none; } 
+caption,th { text-align:left; } 
+h1,h2,h3,h4,h5,h6 { font-family:"Helvetica Neue Condensed Black",Impact,"Arial Narrow"; font-size:100%; font-weight:normal; } 
+q:before,q:after { content:''; } 
+abbr,acronym { border:0; }
+strong {font-weight:bold;}
+em {font-style:italic;}
+
+body                            { background:#FFAA00 url(../images/bg.jpg) top center no-repeat fixed; font-family:Arial,Helvetica,sans; font-size:75%; text-align:center; }
+* html>body                     { font-size:12px; }
+
+#ContentContainer               { margin:0 auto; position:relative; text-align:left; width:1024px; }
+sup                             { vertical-align:top; }
+h4                              { color:#4D1F57; font-family:Arial,"Helvetica Neue",Helvetica,sans; font-size:0.9375em; font-weight:bold; margin:0 0 0.75em 0; text-transform: uppercase; }
+
+
+
+/***** HOME - MAIN ******************************/
+
+#Main                           { background:#FFF0D2; border:#4D1F57 2px solid; margin:0 19px 0 15px; color:#4d1f57; position:relative; width:400px; }
+#Main .inner                    { margin:0 17px; }
+#Main a                         { color:#4D1F57; text-decoration:none; }
+#Main a:hover                   { color:#351138; }
+#Main h3                        { height:54px; margin:25px 0 1.25em 0; overflow:hidden; width:917px;}
+#Main h3 span                   { background:transparent url(../images/school.gif) 0 0 no-repeat; display:block; height:54px; width:400px;}
+#Main p                         { color:#010101; margin:0 0 1.5em 0; }
+#Main p em                      { color:#4D1F57; font-weight:bold; font-family:"Arial Black", Arial,sans; font-size:0.91667em; font-style:normal; text-transform:uppercase; }
+#Main ul                        { font-family:Arial,"Helvetica Neue",Helvetica,sans; font-size:0.9375em; font-weight:bold; }
+
+
+
+.Home .disclaimer               { color:#4D1F57; position:absolute; right:47px; top:480px; }
+
+
+/***** TESIMONIALS - MAIN ***********************/
+
+.Testimonials #Main h3          { color:#383439; font-size:2.125em; height:55x; line-height:1em; text-transform:uppercase; width:400px; }
+.Testimonials #Main h3 span     { background-image:url(../images/success-stories.gif); height:55px; width:400px; }
+#TestimonialsWrapper            { margin:0 20px 2em 27px; }
+
+div.testimonial                 { float:left; margin:0 10px 1em 0; width:292px; }
+div.testimonial .quote          { background:#FFFAED; border:2px solid #4D1F57; border-bottom:none; font-size:1.0833em; min-height:133px; width:288px; }
+div.testimonial blockquote      { font-weight:bold; margin:0 0 0 2em; padding-top:1.25em; width:220px; }
+div.testimonial cite            { display:block; font-weight:bold; margin:0 2em; padding-top:0.75em;  }
+div.bubble                      { background:#FFF0D2 url(../images/bubble.gif) left bottom no-repeat; height:20px; width:292px; }
+div.testimonial img.portrait    { margin:-3px 0 -3px 65px; }
+
+.Testimonials .btn              { text-align:right; }
+.Testimonials .btn .register_now{ margin-right:19px; }
+
+
+

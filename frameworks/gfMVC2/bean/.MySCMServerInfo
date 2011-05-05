@@ -1,0 +1,6 @@
+SCMBranch=gfMVC2
+SCMRepository=gfMVC2/frameworks/gfMVC2/bean
+SCMMainlineUUID={760ac091-b663-435b-9e76-45a1dd83bed7}
+SCMBranchRepositoryID=18
+baseBean.cfc;3888521242;2;1295666251;
+event.cfc;1922193532;4;1296172666;

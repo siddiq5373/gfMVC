@@ -1,0 +1,38 @@
+body {color:#ffffff; background:#000000; background-image:url('../images/bodyBg.jpg'); background-repeat:repeat-x;}
+.wallpaper	{background-image:url('../images/waterbedBg.png'); background-repeat:no-repeat; background-position:bottom center; padding-bottom:400px;}
+.wrapper	{background-image:url('../images/containerBg.jpg'); background-position:top center; background-repeat:no-repeat;}
+.header		{padding-top:50px;}
+.navigation	{height:51px; background-image:url('../images/NavigationBg.png'); background-repeat:no-repeat; width:950px;}
+.navigation a	{color:#FFFFFF; text-decoration:none; font-size:12pt; display:block; float:left; padding-left:13px; padding-right:13px; padding-top:10px;}
+.navigation a:hover	{color:#82c440; text-decoration:none;}
+.navigation a.on	{color:#3a669b; text-decoration:none;}
+.date		{color:#3a669b;}
+.category	{color:#82c440;}
+
+.featuredTitle		{color:#FFFFFF; font-size:13pt;}
+.featuredTitle a	{color:#FFFFFF; font-size:13pt; text-decoration:none;}
+.featuredTitle a:hover	{color:#82c440;}
+.pageTitle			{padding:10px 0px 10px 0px; font-size:7pt; padding-bottom:40px;}
+
+
+
+
+.comments		{background: url('../images/comments.png') no-repeat; width: 111px; height: 30px; float: right; color: #FFF; text-align: center; margin-top: 5px; font-size:8pt; padding-top:1px;}
+.comments a		{text-decoration:none;}
+.comments p		 {padding-top: 1px;}
+.comments p span {font-size:8pt;}
+
+.bio			{background-image:url('../images/mugShot.png'); background-repeat:no-repeat; min-height:190px; background-position:bottom left;}
+.bioText		{padding-left:210px; padding-top:50px;}
+
+h4.highlightA		{color:#82c440;}
+.categories			{background-color:#14253e; padding:10px;}
+.categories ul 		{font-size:8pt; list-style-type: none; padding:0; margin:0;}
+.categories ul li	{font-size:8pt; background-image: url('../images/bgCategories.gif'); background-repeat: no-repeat; background-position: .1em .5em; padding-left:15px; padding-top:2px; padding-bottom:2px;}
+
+h2	a				{color:#FFFFFF; text-decoration:none;}
+
+
+
+
+.links				{float:left;}
