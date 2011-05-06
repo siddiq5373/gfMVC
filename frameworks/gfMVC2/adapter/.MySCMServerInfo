@@ -1,7 +1,0 @@
-SCMBranch=gfMVC2
-SCMRepository=gfMVC2/frameworks/gfMVC2/adapter
-SCMMainlineUUID={760ac091-b663-435b-9e76-45a1dd83bed7}
-SCMBranchRepositoryID=17
-ColdSpring.cfm;4232709428;1;1277914877;
-getfusedDBService.cfm;3418290035;1;1280167648;
-hibernate.cfm;1096461409;1;1279232864;

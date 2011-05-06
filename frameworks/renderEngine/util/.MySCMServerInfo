@@ -1,7 +1,0 @@
-SCMBranch=gfMVC2
-SCMRepository=gfMVC2/frameworks/renderEngine/util
-SCMMainlineUUID={760ac091-b663-435b-9e76-45a1dd83bed7}
-SCMBranchRepositoryID=208
-Template.cfm;3216681558;1;1294411283;
-manageTemplate.cfm;2860080604;1;1275017507;
-processTemplate.cfm;4217462575;1;1294411307;
