@@ -117,7 +117,7 @@ component accessors="true" displayname="gfMVC Controller" serializable="true" ou
 		local.currentHandlerName = $getCurrentHandler(arguments.event);
 		local.eventMethod = $getCurrentEventMethod(arguments.event);
 		local.viewName = $getCurrentView(arguments.event);
-
+		
 		// Get Current Event Handler, Method and Default View Name
 		// TODO: cache the info so that no need to check next request
 		// Need Cache - Starts or kind of application pooling
@@ -129,7 +129,25 @@ component accessors="true" displayname="gfMVC Controller" serializable="true" ou
 				local.availableEventObjectsInfo = $getRequiredObjectsInfo(local.currentHandlerName);
 				local.availableEventObjects = $loadObjectsFromFactory ( local.availableEventObjectsInfo );
 			}
-			for (local.key in local.availableEventObjects){
+			local.eventLookupOrder = ['handlerCache','serviceCache','listenerCache'];
+			for (i=1; i LTE arraylen(local.eventLookupOrder); i = i + 1){
+				local.key = local.eventLookupOrder[i];
+				
+				if (StructKeyExists(local.availableEventObjects, local.key)) {
+					local.oHandler = local.availableEventObjects[ local.key ];
+					local.HandlerMetaInfo = local.oHandler.getEventMeta();
+					
+					if ( StructKeyExists(local.HandlerMetaInfo, local.eventMethod) ){
+						break;	
+					}
+					else{
+						StructDelete(local,'oHandler');
+						StructDelete(local,'HandlerMetaInfo');
+					}
+				}
+			}
+			
+			/*for (local.key in local.availableEventObjects){
 				local.oHandler = local.availableEventObjects[ local.key ];
 				local.HandlerMetaInfo = local.oHandler.getEventMeta();
 				
@@ -140,7 +158,7 @@ component accessors="true" displayname="gfMVC Controller" serializable="true" ou
 					StructDelete(local,'oHandler');
 					StructDelete(local,'HandlerMetaInfo');
 				}
-			}
+			}*/
 			
 			var eventCacheInfo = {};
 			eventCacheInfo.availableEventObjectsInfo = local.availableEventObjectsInfo;
